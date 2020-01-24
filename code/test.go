@@ -1,4 +1,5 @@
 // last updated 23/12/2019   1pm
+//modify
 
 package main
 import ("fmt"
@@ -15,6 +16,7 @@ func strConversion(pt []int)string{
     conv_ar := strings.Join(newarr,",")
     return conv_ar
 }
+
 
 func generateKey(pts []int, ma map[string]int)(bool, string,[]int){
     copy_pts := make([]int,len(pts))
